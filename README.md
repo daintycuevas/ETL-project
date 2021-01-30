@@ -22,8 +22,11 @@ Even though we finished the project within the budgeted time, we did spend more 
 Overall, we successfully extracted, transformed and loaded as planned.
 
 ## Screenshot and other assets
-Soucre file (.csv) here:  resources
-Screenshots: resources/images/
+Soucre file (.csv) here:  resources/alcoholSubstanceAbuse.csv
+Screenshots: 
+assets_images/df_percapita_tostring.png
+assets_images/df_merge_on_country.png
+
 
 
 ## ========== ORIGINAL PROPOSAL ========= ##
