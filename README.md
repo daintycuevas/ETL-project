@@ -4,14 +4,21 @@ Group 3 Proposal - updated Wednesday, Jan. 27, 2021
 
 
 ## ========== ETL PROJECT SUMMARY ========= ##
+
+To: michaelsean@me.com
+From: Mabel Alamu, Arthur An, Dainty Cuevas, Sonny Maz
+
+
 Hi Sean,
+
 
 Here is a quick summary of the ETL Project you requested. 
 
-## Purpose:
-The purpose of this project was to demonstrate the process of  extracting, transforming, and loading the source data from the sources of the differnet formats (.csv, .json, etc) to our targest databse system, which is Postgres.   
 
-##Process: 
+## Purpose:
+The purpose of this project was to demonstrate the process of extracting, transforming, and loading the source data from the sources of the differnet formats (.csv, .json, etc) to our targest databse system, which is Postgres.   
+
+## Process: 
 As of Wednesday, Jan. 27, our team have finished the project withinthe timeframe we originally planned, even though the allocated time spent on each step varied from we estimated. 
 
 First, we sourced our world population data from Kaggle, and scraped per capita GDP data from wikipedia and then followed our defined process as discussed to get data into the target system.
@@ -19,13 +26,25 @@ First, we sourced our world population data from Kaggle, and scraped per capita 
 Even though we finished the project within the budgeted time, we did spend more time on cleansing/transforming data than we originally planned.  First, we found that the population data contained more information than we needed and decided to focus only on one year (2018) and one data point (aggregated alcohol abuse for both genders). We then joined the two dataframes based a country.   When we tried to loand the data into the target databases, we got system error, which, we later found that there are non-numeric values.  We were able to drop those non-numeric value and load the data successfully. 
 
 ## Summary
-Overall, we successfully extracted, transformed and loaded as planned.
+Overall, we successfully extracted, transformed and loaded as planned. You can find the project results in the following link: https://github.com/daintycuevas/ETL-project.git.
 
 ## Screenshot and other assets
-Soucre file (.csv) here:  resources/alcoholSubstanceAbuse.csv
+Soucre file (.csv) here:  
+resources/alcoholSubstanceAbuse.csv
+
 Screenshots: 
 assets_images/df_percapita_tostring.png
 assets_images/df_merge_on_country.png
+asset_images/df_alcohol_per_capita.png
+
+
+Thank you!
+
+The Worldly Company
+worldlycompany.org
+
+
+
 
 
 
