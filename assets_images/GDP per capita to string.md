@@ -1,3 +1,0 @@
-Screenshot: assets_images/df_percapita_tostring.png
-
-This screenshot illustrates the loaded 'GDP per capita' sourced from the wikipedia link: https://www.kaggle.com/utkarshxy/who-worldhealth-statistics-2020-complete?. This data is organized by country, which will allow us to join the data set with our main data set. However, in order to complete the join of both tables, we transformed the values of 'GDP per capita into a string integer. And to narrow the results for each country, we were able to group by country and get the average GDP. 
