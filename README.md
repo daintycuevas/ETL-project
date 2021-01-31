@@ -11,7 +11,8 @@ Overall, we have finished the project within the 3 hour timeframe we budgeted.
 
 ### EXTRACT: (Arthur, 10 minutes)
 
-We downloaded the total alcohol consumption per capita csv file from Kaggle . Then we scrapped GDP per capita dataset from wikipedia using pandas (pd.read_html).
+* We downloaded the total alcohol consumption per capita csv file from Kaggle.
+* Then we scrapped GDP per capita dataset from wikipedia using pandas (pd.read_html).
 
 ### TRANSFORM: (Sonny & Dainty, 45 minutes)
 
@@ -23,4 +24,5 @@ We downloaded the total alcohol consumption per capita csv file from Kaggle . Th
 ### LOAD: (Mabel, 20 minutes)
 
 * We created a table in Postgres to hold the dataframe we were loading from pandas
-* The data types of the data in pandas were different from what we set in Postgres. We then proceeded to change the data types in pandas, so we could successfly load the data into Postgres.
+* The data types of the data in pandas were different from what we set in Postgres. This created a problem, and we were initally unable to load the data into Postgres.
+* We proceeded to change the data types in pandas, so we could successfly load the data into Postgres.
